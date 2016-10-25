@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: candymachine-nodered
+  host: candymachine-nodered
+  disk_quota: 1024M
+  services:
+  - candymachine-nodered-cloudantNoSQLDB
