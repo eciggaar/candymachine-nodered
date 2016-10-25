@@ -7,4 +7,11 @@ applications:
   host: candymachine-nodered
   disk_quota: 1024M
   services:
-  - candymachine-nodered-cloudantNoSQLDB
+  - nodeREDCloudantNoSQLDB
+  env:
+    NODE_RED_STORAGE_NAME: nodeREDCloudantNoSQLDB
+
+declared-services:
+  nodeREDCloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Lite
