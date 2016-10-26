@@ -1,0 +1,120 @@
+/* @import url(https://fonts.googleapis.com/css?family=Caveat:700); */
+
+/* style.css
+ * This file provides css styles.
+ */
+
+body,html {
+	/*background-image: url("../images/candymachine.png");
+	background-size: cover;                   
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: #ffffff;
+	margin: 0 auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #313f4a;
+}
+
+a {
+	text-decoration: none;
+	color: #00aed1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 4em;
+	font: 60px 'Pompiere';
+	text-align: center;
+	padding-top:3%;
+}
+
+.highscore {
+	font-weight: bold;
+	font-size: 4em;
+	font: 45px 'VT323';
+	text-align: center;
+}
+
+.leftHalf {
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
+
+.rightHalf {
+	float: right;
+	width: 55%;
+	background-color: #313f4a;
+	height: 100%;
+	overflow:auto;
+}
+
+.blue {
+	color: #00aed1;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 800px;
+	margin: 0 auto;
+	word-wrap: break-word;
+	padding-top:10%;
+}
+
+th {
+	border-bottom: 1px solid #000;
+}
+
+th, td {
+	text-align: left;
+	padding: 2px 20px;
+}
+
+.env-var {
+	text-align: right;
+	border-right: 1px solid #000;
+	width: 30%;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font: 30px 'Pompiere';
+}
+
+.pos_text span {
+	color: #006633;
+}
+
+.neg_text span {
+	color: #660000;
+}
+
+.connected {
+	color: #006633;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.disconnected {
+	color: #660000; 
+	font-size: 10px;
+	font-weight: bold;
+}
